@@ -58,6 +58,6 @@ Yes, they get hoisted but in a different way compared to variables declared with
 
 ![temporaldeadzone](https://user-images.githubusercontent.com/88746202/218831028-ecbb1639-153a-4eb9-8ada-8352c8190291.png)
 
-Variables declared with var key word is allocated memory and attacted to global object where as for let and const variables, memory is allocated and attached to diferent Object `Script` which is a seperate memory space. And this space can not be used/accessed before initializing the variables. 
+Variables declared with `var` keyword is allocated memory and attacted to `Global` object where as for let and const variables, memory is allocated and attached to diferent Object `Script` which is a seperate memory space. And this space can not be used/accessed before initializing the variables. 
 
-Temporal dead zone is a phase when let & const variables are hosited till the time these variables are initialized with values. When we try to access variables which are in temporal dead zone, we will get `ReferenceError`
+**Temporal Dead Zone** is a phase when let & const variables are hosited till the time these variables are initialized with values. When we try to access variables which are in temporal dead zone, we will get `ReferenceError`
