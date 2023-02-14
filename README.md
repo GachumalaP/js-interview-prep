@@ -24,7 +24,7 @@ In phase second phase, JS runs through the whole code line by line again and exe
 Whenever JS encounters a function invocation a new execution context is created in two phases. 
 
     In phase 1, memory is allocated to variables and funtions, 
-    Memory is allocted to num and result
+    Memory is allocted to input and result
     
     In phase 2, code is executed and the value `undefined` will be replaced by `2` and `4` after making the calculation
     When a return keyword is encountered, it states that return the control of the program to the place where the function was invoked. 
